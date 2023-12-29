@@ -49,10 +49,10 @@ const services = [
   //   title: "React Native Developer",
   //   icon: mobile,
   // },
-  // {
-  //   title: 'Backend Developer',
-  //   icon: backend,
-  // },
+  {
+    title: 'Backend Developer',
+    icon: backend,
+  },
   {
     title: 'Technical Writer',
     icon: creator,
@@ -196,60 +196,146 @@ const testimonials = [
   },
 ];
 
+// const projects = [
+//   {
+//     name: 'Car Rent',
+//     description:
+//       'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
+//     tags: [
+//       {
+//         name: 'react',
+//         color: 'blue-text-gradient',
+//       },
+//       {
+//         name: 'mongodb',
+//         color: 'green-text-gradient',
+//       },
+//       {
+//         name: 'tailwind',
+//         color: 'pink-text-gradient',
+//       },
+//     ],
+//     image: carrent,
+//     source_code_link: 'https://github.com/',
+//   },
+//   {
+//     name: 'Job IT',
+//     description:
+//       'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
+//     tags: [
+//       {
+//         name: 'react',
+//         color: 'blue-text-gradient',
+//       },
+//       {
+//         name: 'restapi',
+//         color: 'green-text-gradient',
+//       },
+//       {
+//         name: 'scss',
+//         color: 'pink-text-gradient',
+//       },
+//     ],
+//     image: jobit,
+//     source_code_link: 'https://github.com/',
+//   },
+//   {
+//     name: 'Trip Guide',
+//     description:
+//       'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
+//     tags: [
+//       {
+//         name: 'nextjs',
+//         color: 'blue-text-gradient',
+//       },
+//       {
+//         name: 'supabase',
+//         color: 'green-text-gradient',
+//       },
+//       {
+//         name: 'css',
+//         color: 'pink-text-gradient',
+//       },
+//     ],
+//     image: tripguide,
+//     source_code_link: 'https://github.com/',
+//   },
+// ];
+
 const projects = [
   {
-    name: 'Car Rent',
+    name: 'Stacksync',
     description:
-      'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
+      'A Directus extension that allows you to sync and integrate your paystack integration to your Directus project.',
     tags: [
       {
-        name: 'react',
+        name: 'vuejs',
         color: 'blue-text-gradient',
       },
       {
-        name: 'mongodb',
+        name: 'directus',
         color: 'green-text-gradient',
       },
       {
-        name: 'tailwind',
+        name: 'nodejs',
         color: 'pink-text-gradient',
       },
     ],
     image: carrent,
-    source_code_link: 'https://github.com/',
+    source_code_link: 'https://github.com/koredeycode/stacksync.git',
   },
   {
-    name: 'Job IT',
+    name: 'Soundscape',
     description:
-      'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
+      'Web application that allow users to search for music, listen to music, and create playlists.',
     tags: [
       {
         name: 'react',
         color: 'blue-text-gradient',
       },
       {
-        name: 'restapi',
+        name: 'django',
         color: 'green-text-gradient',
       },
       {
-        name: 'scss',
+        name: 'tailwindcss',
         color: 'pink-text-gradient',
       },
     ],
     image: jobit,
-    source_code_link: 'https://github.com/',
+    source_code_link: '',
   },
   {
-    name: 'Trip Guide',
+    name: 'Reflectify',
     description:
-      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
+      'A decentralized web application that allows users to create and share reflections with others.',
     tags: [
       {
         name: 'nextjs',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'web5.js',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'tailwindcss',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: tripguide,
+    source_code_link: 'https://github.com/koredeycode/web5-diary',
+  },
+  {
+    name: 'TeamZone',
+    description: 'TeamZone, a web application for connecting local teams.',
+    tags: [
+      {
+        name: 'html',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'flask',
         color: 'green-text-gradient',
       },
       {
@@ -258,7 +344,7 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: 'https://github.com/',
+    source_code_link: 'https://github.com/koredeycode/TeamZone',
   },
 ];
 
